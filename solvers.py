@@ -1,3 +1,6 @@
+'''
+Ten plik musi zostać całkowicie zintegrowany z notatnikiem do momentu oddania pracy
+'''
 def euler_solver(f, y0, tlim, step = 0.1): #f powinna być funkcją postaci f(y:float, t:float)->float
     y, t = [y0], 0 #lista przybliżonych wartości, czas
     while t < tlim:
