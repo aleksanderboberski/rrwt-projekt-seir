@@ -1,9 +1,14 @@
 Projekt na przedmiot "Równania różniczkowe w technice" dotyczący modelu rozwoju epidemii SEIR. Autorzy: Aleksander Boberski, Maciej Pytel
 
 do zrobienia:  
-solver + ladne wykresy  
-wiecej modeli  
-szczepionki i herd immunity  
-covid eksperyment  
-ew modele przestrzenne  
-wiecej prozy
+modele:
+SIR
+SEIR
+SIRVD
+
+punkty rownowagi
+dla kazdego modelu solver + ladne wykresy (moze z suwakami w plotly)
+covid eksperyment (wyznaczamy wspolczynniki i symulujemy SIR)
+ew modele przestrzenne
+
+redakcja prozy + przypisy i latex
