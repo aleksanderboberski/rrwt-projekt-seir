@@ -21,6 +21,19 @@ def midpoint_solver(f, y0, tlim, step = 0.1): #taka sama konwencja jak w euler_s
         t += step
     return y
 
+def vector_midpoint(f, y0, tlim, step = 0.1): #f musi zwracac iterable wszystkich pochodnych, y0 to wektor warunkow poczatkowych
+    y, t = [y0], 0
+    while t < tlim:
+        dy = f(y[-1], t)
+        midpoint = [y[-1][i] + (dy[i]*(step/2)) for i in range(len(dy))] #moze zamiast tego jakies numpy zeby to lepiej wygladalo i chodzilo
+        print(map(lambda a, b: a+(b*(step/2)), y[-1], dy))
+
+        dy = f(midpoint, t+(step/2))
+        y.append([y[-1][i] + (dy[i]*step) for i in range(len(dy))])
+        
+        t += step
+    return y
+
 
 if __name__ == "__main__": #DEMO
     import matplotlib.pyplot as plt
@@ -40,3 +53,12 @@ if __name__ == "__main__": #DEMO
     ax2.set_ylim(110,115)
     ax2.set_xlim(94,95)
     plt.show()
+    
+    '''def f(y, t):
+        return [y[0], y[1]+t]
+    import matplotlib.pyplot as plt
+    y = vector_midpoint(f, (1,1), 5)
+    y1, y2 = [i[0] for i in y], [i[1] for i in y]
+    plt.plot(y1)
+    plt.plot(y2)
+    plt.show()'''
