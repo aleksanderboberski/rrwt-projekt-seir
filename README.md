@@ -11,4 +11,6 @@ dla kazdego modelu solver + ladne wykresy (moze z suwakami w plotly)
 covid eksperyment (wyznaczamy wspolczynniki i symulujemy SIR)
 ew modele przestrzenne
 
+przeskalowanie wykresów
+
 redakcja prozy + przypisy i latex
