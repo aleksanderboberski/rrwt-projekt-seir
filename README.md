@@ -4,8 +4,9 @@ do zrobienia:
 modele:
 SIR (done)
 SEIR (done)
+SIRV (done)
 SIRVD
-dla kazdego modelu solver + ladne wykresy (moze z suwakami w plotly)
+dla kazdego modelu solver + ladne wykresy (moze z suwakami w plotly) (done)
 
 punkty rownowagi
 covid eksperyment (wyznaczamy wspolczynniki i symulujemy SIR)
