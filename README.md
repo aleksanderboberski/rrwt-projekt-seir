@@ -5,12 +5,11 @@ modele:
 SIR (done)
 SEIR (done)
 SIRV (done)
-SIRVD
+notka o implementacji podziału Recovered na Recovered i Dead
 dla kazdego modelu solver + ladne wykresy (moze z suwakami w plotly) (done)
 
 punkty rownowagi
-covid eksperyment (wyznaczamy wspolczynniki i symulujemy SIR)
-ew modele przestrzenne
+ew modele przestrzenne jako ciekawostka
 
 przeskalowanie wykresów
 
