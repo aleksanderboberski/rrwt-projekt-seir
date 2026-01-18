@@ -5,7 +5,7 @@ modele:
 SIR (done)
 SEIR (done)
 SIRV (done)
-notka o implementacji podziału Recovered na Recovered i Dead
+notka o implementacji podziału Recovered na Recovered i Dead (done)
 dla kazdego modelu solver + ladne wykresy (moze z suwakami w plotly) (done)
 
 punkty rownowagi
