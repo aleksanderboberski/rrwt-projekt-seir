@@ -13,3 +13,5 @@ punkty rownowagi
 abstrakcja jednostki czasu
 zakończenie
 redakcja prozy + przypisy i latex
+
+to juz jest koniec nie ma już nic
